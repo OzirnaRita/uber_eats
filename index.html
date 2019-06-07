@@ -5,7 +5,6 @@
   <title>Uber eats</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
-  <link href="fontawesome-free-5.8.2-web/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,13 +14,14 @@
         <img alt="logo" src="images/logo.png">
       </a>
       <form class="order__form" action="#" method="GET">
-        <input class="field when" type="text" value="ASAP" placeholder="ASAP">
-        <span class="to">to</span>
-        <div class="field address">
-          <img src="images/location.png" alt="Place pointer">
-          <input type="text" size="18" placeholder="Enter your address" value="ul. Tarasivska St, 16">
-        </div>
-      </form>
+          <div class="order__form__when text__light">When</div>
+          <input class="field when" type="text" value="ASAP" placeholder="ASAP">
+          <span class="order__form__to text__light">to</span>
+          <div class="field address">
+            <img src="images/location.png" alt="Place pointer">
+            <input type="text" size="18" placeholder="Enter your address" value="ul. Tarasivska St, 16">
+          </div>
+        </form>  
       <div class="buttons">
         <a href="#" class="field btn btn__signIn">Sign In</a>
         <a href="#" class="field btn btn__register">Register</a>
@@ -132,7 +132,7 @@
         </div>
         <div class="hashtag">
           <a href="#"><span class="tag">#</span>UberEats</a>
-          <div>
+          <div class="icons">
             <a href="https://www.facebook.com">
               <img src="images/facebook.png" alt="facebook">
             </a>
